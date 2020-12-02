@@ -71,11 +71,6 @@ body {
   border-bottom: 5px solid white;
 }
 
-p::first-letter {
-  color: red;
-  font-size: 20px;
-}
-
 .main-nav__item--cta a {
   color: white;
   background: #ff1b68;
@@ -138,4 +133,36 @@ p::first-letter {
 
 .plan__features li {
   margin: 8px 0;
+}
+
+.button {
+  background: #0e4f1f;
+  color: white;
+  font: inherit;
+  border: 1.5px solid #0e4f1f;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background: white;
+  color: #0e4f1f;
+}
+
+.button:focus {
+  outline: none;
+}
+
+#key-features {
+  background-color: #ff1b68;
+  margin-top: 80px;
+  padding: 16px;
+}
+
+#key-features .section-title {
+  color: white;
+  margin: 32px;
 }
