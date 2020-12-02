@@ -8,6 +8,8 @@
 .section-title {
   color: #2ddf5c;
   text-align: center;
+  width: 80%;
+  margin: auto;
 }
 
 #product-overview h1 {
@@ -102,4 +104,10 @@
   font-weight: bold;
   color: white;
   font-size: 20px;
+}
+
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
