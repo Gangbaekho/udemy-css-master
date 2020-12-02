@@ -114,6 +114,22 @@ p::first-letter {
   border-radius: 8px;
 }
 
+.plan__title {
+  color: #0e4f1f;
+}
+
+.plan__price {
+  color: rgb(139, 139, 139);
+}
+
+.plan--highlighted .plan__price {
+  color: #0e4f1f;
+}
+
+.plan--highlighted .plan__title {
+  color: white;
+}
+
 .plan__features {
   list-style: none;
   margin: 0;
