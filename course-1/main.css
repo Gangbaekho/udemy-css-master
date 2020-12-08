@@ -11,6 +11,7 @@
   /* background-image: linear-gradient(30deg, red 70%, transparent); */
   /* background-image: radial-gradient(circle at top left, red, blue); */
   /* background-image: radial-gradient(circle 20px at 20% 30%, red, blue); */
+  position: relative;
 }
 
 .section-title {
@@ -22,6 +23,9 @@
 
 #product-overview h1 {
   color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
 }
 
 .plan {
